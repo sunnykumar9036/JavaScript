@@ -31,3 +31,7 @@ let myobj={
 const myfunction=function (){
   console.log('hello');
 }
+
+const yourfun=function(){
+  console.log("sunny");
+}
