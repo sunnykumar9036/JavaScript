@@ -19,7 +19,7 @@ const myarr2= new Array(1,2,3,4,5,6) //we can declare the array using this also
 // console.log(array);
 
 
-// console.log(array.includes(9)); 
+// console.log(array.includes(9)); ///it tell wether it is present are not o/p true or false
 
 // console.log(array.indexOf(10)); //if it is not present it will show -1 by default
 
@@ -30,14 +30,14 @@ const myarr2= new Array(1,2,3,4,5,6) //we can declare the array using this also
 
 //slice ,splice
 
-console.log("A", array);
+// console.log("A", array);
 
-const array1=array.slice(1,3)
+// const array1=array.slice(1,3)
 
-console.log(array1);
+// console.log(array1);
 
-console.log("B",array);
+// console.log("B",array);
 
-const myarr1=array.splice(1,3) // it will change the original array it will remove the protion 1,3
-console.log("c",array);
-console.log(myarr1);
+// const myarr1=array.splice(1,3) // it will change the original array it will remove the protion 1,3
+// console.log("c",array);
+// console.log(myarr1);
