@@ -27,9 +27,24 @@ const obj2={3:"c",4:"d"}
 const obj3={...obj1,...obj2}
 // console.log(obj3);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isloggedin'));
+// console.log(tinderUser.hasOwnProperty('isloggedin'));
+
+//destructing
+
+const course={
+  coursename:"js in hindi",
+  price:"999",
+  courseInstructor:"sunny"
+}
+// console.log(course.courseInstructor);//
+
+const {courseInstructor:instructor}=course //this is destructing
+// console.log(courseInstructor); 
+console.log(instructor);
+
+
 
